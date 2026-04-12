@@ -92,7 +92,7 @@ export default function Portfolio() {
 
   const handleCV = () => {
     const link = document.createElement("a");
-    link.href = "I.S.palangasinghe.pdf";
+    link.href = "Ishara Palangasinghe.pdf";
     link.download = "Ishara_Palangasinghe_CV.pdf";
     document.body.appendChild(link);
     link.click();
