@@ -9,11 +9,6 @@ const NAV_ITEMS = [
 
 const ROLES = ["Full Stack Developer", "ICT Undergraduate", "Cloud Enthusiast", "AI Explorer"];
 
-const STATS = [
-  { value: "6+", label: "Featured projects" },
-  { value: "10+", label: "Technologies" },
-  { value: "1st", label: "Hacktrail 1.0" },
-];
 
 const HIGHLIGHTS = [
   "I build practical full-stack products with clean user interfaces and reliable backends.",
@@ -138,7 +133,7 @@ export default function Portfolio() {
 
   const handleCVDownload = () => {
     const link = document.createElement("a");
-    link.href = "/Ishara Palangasinghe.pdf";
+    link.href = "/Ishara Palangasinghe_CV.pdf";
     link.download = "Ishara_Palangasinghe_CV.pdf";
     document.body.appendChild(link);
     link.click();
@@ -216,19 +211,7 @@ export default function Portfolio() {
             </div>
           </div>
 
-          <div className="hero-visual fade-in delay-1">
-            <div className="avatar-ring">
-              <img src="/ishara.jpeg" alt="Ishara Palangasinghe" />
-            </div>
-            <div className="floating-card top-card">
-              <span>🏆</span>
-              <p>Hacktrail 1.0 Champion</p>
-            </div>
-            <div className="floating-card bottom-card">
-              <span>☁️</span>
-              <p>AWS & Terraform learner</p>
-            </div>
-          </div>
+         
         </section>
 
         <section id="about" className="section-pad about-section">
