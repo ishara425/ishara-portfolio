@@ -289,8 +289,13 @@ export default function Portfolio() {
           {/* bio + skills card */}
           <div className="card" style={{marginBottom:"20px"}}>
             <p style={{fontSize:"15px",color:"#888",lineHeight:1.85,marginBottom:"28px"}}>
-              Final-year ICT undergraduate with a strong foundation in full-stack development, cloud computing, and scalable system design. Experienced in building end-to-end web applications and expanding expertise in AWS cloud services and DevOps workflows — committed to writing clean code and delivering solutions that create real-world impact.
-            </p>
+              I’m a final-year BICT (Hons) undergraduate with hands-on experience in full-stack development
+               and a strong passion for building modern, scalable web applications. I have worked with technologies such as React, Spring Boot, Node.js, MySQL, and RESTful APIs through academic and personal projects.
+I’m also interested in cloud computing and have gained practical exposure to AWS and Azure through workshops and hands-on learning. I enjoy learning new technologies,
+ solving real-world problems, and working in collaborative environments using Agile development practices.
+Currently, I’m looking for opportunities to contribute as a Software Engineering or Full-Stack Development 
+Intern while growing as a developer in a professional environment.
+</p>
 
             <div style={{display:"grid",gridTemplateColumns:"1fr 1fr",gap:"24px"}}>
               <div>
